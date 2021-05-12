@@ -40,9 +40,9 @@ The following assumptions were made:
 
 #### RENTALS
 * List all books http://localhost:8080/books 
-* Borrow a book http://localhost:8080/borrow?userId=<USERID>&isbn=<ISBN>
-* List rented books by user http://localhost:8080/rents/<USERID>
-* Return book http://localhost:8080/return?userId=<USERID>&isbn=<ISBN>
+* Borrow a book http://localhost:8080/borrow?userId=USERID&isbn=ISBN
+* List rented books by user http://localhost:8080/rents/USERID
+* Return book http://localhost:8080/return?userId=USERID&isbn=ISBN
 
 #### ADMIN
 * Add new book to library [HTTP POST METHOD WITH BODY]
@@ -52,6 +52,6 @@ The following assumptions were made:
   * http://localhost:8080/book
   
 * Remove a book from library [HTTP DELETE METHOD]
-    * http://localhost:8080/book/<BOOKID>
+    * http://localhost:8080/book/BOOKID
 
 
